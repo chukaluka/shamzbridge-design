@@ -43,13 +43,13 @@ const Navbar = () => {
        <div className='flex items-center justify-between px-4 py-2 mx-auto max-w-[800px]'>
             {/* Logo Section - Visible on all screen sizes */}
             <div className='text-xl font-bold'>
-                <h1 className='text-xs md:text-2xl font-bold pl-6 md:pl-14 mt-20'> SHAMZBRIDGE <span className='text-orange-500'>CONSULT</span></h1>
+                <h1 className='text-lg md:text-3xl font-bold pl-6 md:pl-14 mt-20'> SHAMZBRIDGE <span className='text-orange-500'>CONSULT</span></h1>
 
             </div>
 
 
             <div className='hidden md:flex'>
-                <ul className='flex flex-row space-x-8 p-4'>
+                <ul className='flex flex-row space-x-8 p-4 text-xl'>
                     <li>
                         <Link href='#about' className='hover:underline transition duration-300'>About</Link>
                     </li>
