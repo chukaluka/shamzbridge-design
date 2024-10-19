@@ -18,7 +18,7 @@ export default function Services() {
                 <Image src={shape1} />
             </div>
 
-            <div class="flex flex-col md:flex-wrap justify-between">
+            <div class="flex flex-col md:flex-row md:flex-wrap justify-between">
                 <div class="max-w-[270px] md:max-w-[400px] p-4 m-5 text-center rounded border shadow bg-white">
                     <h1 className='font-bold text-base md:text-xl text-slate-600/70'>Programs/Projects Management</h1>
                     <h1>Partner with us for seamless project execution.</h1>
